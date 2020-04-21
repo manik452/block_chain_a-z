@@ -1,0 +1,489 @@
+{
+	"variables": [],
+	"info": {
+		"name": "BlockChain",
+		"_postman_id": "fa7f8426-756a-a5bf-6245-b339b57b46fa",
+		"description": "",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "5001",
+			"description": "",
+			"item": [
+				{
+					"name": "MineBlock",
+					"request": {
+						"url": "http://localhost:5001/mine_block",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Replace Chain",
+					"request": {
+						"url": "http://localhost:5001/replace_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Chain",
+					"request": {
+						"url": "http://127.0.0.1:5001/get_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "is valid chain",
+					"request": {
+						"url": "http://127.0.0.1:5001/get_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Connect Node",
+					"request": {
+						"url": "http://127.0.0.1:5001/connect_nodes",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"nodes\":[\r\n\t\"http://127.0.0.1:5002\",\r\n\t\"http://127.0.0.1:5003\"\r\n]\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Add Transaction",
+					"request": {
+						"url": "http://127.0.0.1:5001/add_transaction",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"sender\":\"You5001\",\r\n\"receiver\":\"You5002\",\r\n\"amount\":100\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "5002",
+			"description": "",
+			"item": [
+				{
+					"name": "MineBlock",
+					"request": {
+						"url": "http://localhost:5002/mine_block",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Replace Chain",
+					"request": {
+						"url": "http://localhost:5002/replace_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Chain",
+					"request": {
+						"url": "http://127.0.0.1:5002/get_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "is valid chain",
+					"request": {
+						"url": "http://127.0.0.1:5002/get_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Connect Node",
+					"request": {
+						"url": "http://127.0.0.1:5002/connect_nodes",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"nodes\":[\r\n\t\"http://127.0.0.1:5001\",\r\n\t\"http://127.0.0.1:5003\"\r\n]\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Add Transaction",
+					"request": {
+						"url": "http://127.0.0.1:5002/add_transaction",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"sender\":\"You5002\",\r\n\"receiver\":\"You5003\",\r\n\"amount\":100\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "5003",
+			"description": "",
+			"item": [
+				{
+					"name": "MineBlock",
+					"request": {
+						"url": "http://localhost:5003/mine_block",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Replace Chain",
+					"request": {
+						"url": "http://localhost:5003/replace_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Get Chain",
+					"request": {
+						"url": "http://127.0.0.1:5003/get_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "is valid chain",
+					"request": {
+						"url": "http://127.0.0.1:5003/get_chain",
+						"method": "GET",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Connect Node",
+					"request": {
+						"url": "http://127.0.0.1:5003/connect_nodes",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"nodes\":[\r\n\t\"http://127.0.0.1:5002\",\r\n\t\"http://127.0.0.1:5001\"\r\n]\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				},
+				{
+					"name": "Add Transaction",
+					"request": {
+						"url": "http://127.0.0.1:5003/add_transaction",
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json",
+								"description": ""
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n\"sender\":\"You5003\",\r\n\"receiver\":\"You5002\",\r\n\"amount\":100\r\n}"
+						},
+						"description": ""
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "MineBlock",
+			"request": {
+				"url": "http://localhost:5000/mine_block",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Get Chain",
+			"request": {
+				"url": "http://127.0.0.1:5000/get_chain",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "is valid chain",
+			"request": {
+				"url": "http://127.0.0.1:5000/is_valid_chain",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "Hello",
+			"request": {
+				"url": "http://127.0.0.1:5000/",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		},
+		{
+			"name": "MineBlock",
+			"request": {
+				"url": "http://127.0.0.1:5000/mine_block",
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"description": ""
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\"userName\":\"Manik\",\n\"password\":\"123\",\n\"address\":\"Dhaka\"\n}"
+				},
+				"description": ""
+			},
+			"response": []
+		}
+	]
+}
